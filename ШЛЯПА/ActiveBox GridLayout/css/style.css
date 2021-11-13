@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+}
+
+/* Header=========================================== */
+.header {
+    grid-area: 2 / 1 / 2 / 13;
+    text-align: center;
+}
+
+.link__nav {
+    margin: 0 20px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    transition: .2s ease;
+}
+
+.link__nav:hover {
+    font-size: 15px;
+    letter-spacing: 5%;
+}
+
+
+
+/* Main======================================= */
+.main {
+    grid-area: 3 / 2 / 10 / 12;
+}
+/* Section1 ===================================== */
+.section1 {
+    background-color: blueviolet;
+}
+.section1 > img {
+    width: 100%;
+
+}

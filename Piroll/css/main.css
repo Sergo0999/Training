@@ -1,0 +1,230 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: auto;
+}
+/* HEADER================================================== */
+.divheader {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1270px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+    position: sticky;
+    top: 0px;
+    background-color: rgba(255, 255, 255, .95);
+    z-index: 100;
+}
+
+.navlink {
+    color: #616161;
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 0 20px;
+}
+.navlink:nth-child(1) {
+    border-right: 2px solid #616161;
+}
+.navlink:nth-child(2) {
+    border-right: 2px solid #616161;
+}
+
+.divheader1 {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: flex-end;
+}
+/* Section 1================================================ */
+.section1 {
+    background: rgba(0,114,124,1);
+    background: -moz-linear-gradient(left, rgba(0,114,124,1) 0%, rgba(246,41,12,1) 0%, rgba(0,114,124,1) 0%, rgba(14,189,172,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,114,124,1)), color-stop(0%, rgba(246,41,12,1)), color-stop(0%, rgba(0,114,124,1)), color-stop(100%, rgba(14,189,172,1)));
+    background: -webkit-linear-gradient(left, rgba(0,114,124,1) 0%, rgba(246,41,12,1) 0%, rgba(0,114,124,1) 0%, rgba(14,189,172,1) 100%);
+    background: -o-linear-gradient(left, rgba(0,114,124,1) 0%, rgba(246,41,12,1) 0%, rgba(0,114,124,1) 0%, rgba(14,189,172,1) 100%);
+    background: -ms-linear-gradient(left, rgba(0,114,124,1) 0%, rgba(246,41,12,1) 0%, rgba(0,114,124,1) 0%, rgba(14,189,172,1) 100%);
+    background: linear-gradient(to right, rgba(0,114,124,1) 0%, rgba(246,41,12,1) 0%, rgba(0,114,124,1) 0%, rgba(14,189,172,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00727c', endColorstr='#0ebdac', GradientType=1 );
+}
+.buttonss2 {
+    display: flex;
+    justify-content: right;
+
+}
+.buttons2link {
+    width: 120px;
+    height: 115px;
+    text-align: center;
+}
+.imgbuttonlinks2 {
+    padding-top: 20px;
+
+}
+.btn1 {
+    background-color: #079e97;
+}
+.btn2 {
+    background-color: #048b8b;
+}
+.btn3 {
+    background-color: #017e82;
+}
+.offerarea {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 344px;
+}
+.offerarea p, h2 {
+    color: #ffffff;
+    margin: 0;
+}
+
+.divimagebig {
+    position: relative;
+}
+.bigimageoffer {
+    position: relative;
+    bottom: 50px;
+    z-index: 1;
+}
+.backgroundphone {
+    position: absolute;
+    left: -106px;
+    bottom: 62px;
+
+}
+.divofferareatext {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    z-index: 2;
+}
+.divofferright1 {
+    display: flex;
+    align-items: center;
+    margin-top: 55px;
+}
+.divimage {
+    margin-right: 10px;
+}
+.divimage {
+    position: relative;
+    top: 4px;
+}
+.text1 {
+    font-size: 21px;
+    text-transform: uppercase;
+}
+.divofferright3 {
+    display: flex;
+}
+.titlemedium {
+    text-transform: uppercase;
+    font-size: 39px;
+}
+.divofferright {
+    margin-top: 30px;
+}
+.divcart {
+    background-color: #97c8c2;
+}
+.imagecart {
+    padding: 5px 10px;
+}
+.divlink {
+    background-color: #54d3c3;
+    padding: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.linkbuynow {
+    text-decoration: none;
+    color: white;
+
+}
+
+/* Section 2================================= */
+.section2 {
+    text-align: center;
+    padding-top: 45px;
+    position: relative;
+    height: 740px;
+}
+.titlesection2 {
+    color: black;
+    font-size: 41px;
+    color: #636363;
+    font-weight: 400;
+}
+.textsection2 {
+    padding: 0 200px;
+    color: #9f9f9f;
+}
+.appofyearlogo {
+    position: absolute;
+    left: 37%;
+    top: 270px;
+}
+/* Section 3======================================= */
+.offersection3 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 120px 250px;
+    background-color: #01646c;
+
+}
+.navbuttonsection3 {
+    display: flex;
+    background-color: black;
+    text-align: center;
+}
+.buttonlinks3 {
+    width: 16.6666%;
+    display: inline-block;
+    padding: 30px 0;
+}
+.buttonlinks31 {
+    background-color: #01646c;
+}
+.buttonlinks32 {
+    background-color: #097b84;
+}
+.buttonlinks33 {
+    background-color: #118f99;
+}
+.buttonlinks34 {
+    background-color: #1da0aa;
+}
+.buttonlinks35 {
+    background-color: #29b7c2;
+}
+.buttonlinks36 {
+    background-color: #3ccad5;
+}
+.offertexts3 {
+    display: flex;
+    flex-direction: column;
+}
+.titles3 {
+    font-size: 39px;
+    text-transform: uppercase;
+    margin: 0;
+}
+.textoffers3 {
+    font-size: 17px;
+    margin: 0;
+}
+.divbuttonsection3buy {
+    display: flex;
+    margin-top: 30px;
+}
+.titleoffers3 h3, p {
+    color: white;
+}

@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.griddiv {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.div1 {
+    grid-area: 1 / 2 / 3 / 3;
+}
