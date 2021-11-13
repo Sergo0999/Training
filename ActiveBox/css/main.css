@@ -6,3 +6,8 @@ body {
     font-size: 14px;
     text-transform: uppercase;
 }
+.div {
+    margin: 0 auto;
+    background-color: aqua;
+    text-align: center;
+}
