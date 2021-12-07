@@ -2,12 +2,21 @@
     margin: 0;
     padding: 0;
 }
-.griddiv {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-}
 
-.div1 {
-    grid-area: 1 / 2 / 3 / 3;
+body {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-template-areas:
+    "header header header header"
+    "main main main sidebar"
+    "main main main sidebar"
+    "main main main sidebar"
+    "main main main sidebar"
+    "footer footer footer footer";
+
+
+}
+.header {
+    grid-area: header;
 }
